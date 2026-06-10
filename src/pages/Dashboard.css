@@ -1,48 +1,31 @@
 .dashboard {
-  min-height: 100vh;
-  background: #f5f7fa;
-}
+  min-height: calc(100vh - 70px);
 
-.dashboard-layout {
   display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
 }
 
-.main-content {
-  flex: 1;
-  padding: 30px;
+.welcome-card {
+  width: 100%;
+  max-width: 1000px;
+
+  background: white;
+
+  padding: 50px;
+
+  border-radius: 16px;
+
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 
-.welcome-section h1 {
+.welcome-card h1 {
   color: #0E2E63;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
-.welcome-section p {
+.welcome-card p {
   color: #6B7280;
-}
-
-.stats-grid {
-  margin-top: 30px;
-
-  display: grid;
-
-  grid-template-columns:
-    repeat(auto-fit, minmax(220px, 1fr));
-
-  gap: 20px;
-}
-
-.courses-section {
-  margin-top: 40px;
-}
-
-.course-grid {
-  margin-top: 20px;
-
-  display: grid;
-
-  grid-template-columns:
-    repeat(auto-fit, minmax(300px, 1fr));
-
-  gap: 20px;
 }

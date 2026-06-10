@@ -1,0 +1,44 @@
+.assignments-page {
+  padding: 30px;
+}
+
+.assignments-table {
+  width: 100%;
+  border-collapse: collapse;
+
+  background: white;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.assignments-table th,
+.assignments-table td {
+  padding: 16px;
+  text-align: left;
+}
+
+.assignments-table th {
+  background: #2563EB;
+  color: white;
+}
+
+.status {
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.pending {
+  background: #FEF3C7;
+  color: #92400E;
+}
+
+.submitted {
+  background: #D1FAE5;
+  color: #065F46;
+}
+
+.overdue {
+  background: #FEE2E2;
+  color: #991B1B;
+}

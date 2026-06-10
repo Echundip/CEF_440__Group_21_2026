@@ -1,55 +1,15 @@
-body{
-  margin:0;
-  font-family:Arial,sans-serif;
-  background:#f5f6f8;
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #F5F7FA;
+  color: #1F2937;
 }
 
-.navbar{
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  padding:15px;
-  background:white;
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
-.navbar img{
-  height:60px;
-}
-
-.container{
-  display:flex;
-}
-
-.sidebar{
-  width:250px;
-  min-height:100vh;
-  background:#0E2E63;
-  color:white;
-  padding:20px;
-}
-
-.sidebar ul{
-  list-style:none;
-  padding:0;
-}
-
-.sidebar li{
-  margin:20px 0;
-}
-
-main{
-  flex:1;
-  padding:30px;
-}
-
-.cards{
-  display:grid;
-  grid-template-columns:repeat(4,1fr);
-  gap:20px;
-}
-
-.card{
-  background:white;
-  padding:20px;
-  border-radius:12px;
+button {
+  cursor: pointer;
+  border: none;
 }

@@ -1,0 +1,16 @@
+.messages-page {
+  padding: 30px;
+}
+
+.message-card {
+  background: white;
+  padding: 20px;
+  border-radius: 16px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.message-card span {
+  color: #6B7280;
+  font-size: 0.85rem;
+}
