@@ -1,1 +1,2 @@
 •	Was assigned a task to provide a solution to the poor quality of service and experience in e-learning mobile platforms used here in Cameroon. I and my team members went through all the processes of developing a mobile application, from the Ideation to requirement gathering to Data Analysis to App Identity to Frontend development and finished with backend and Database development.
+This Lead to the Creation of **EduStream**
